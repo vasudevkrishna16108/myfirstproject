@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="code2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.jpeg" class="food-munch-logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" href="#contentssection" id="navItem2">Contents</a>
+                        <a class="nav-link" href="#aboutussection" id="navItem3">About Us</a>
+                        <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="banner-section-bg-container d-flex justify-content-end flex-column">
+            <div class="background">
+                <h1 class="text-center banner-heading">Get Free And Quality Online Education</h1>
+                <div class="text-center">
+                    <p class="banner-caption">Learn - Practice - Test</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="explore-menu-section pt-5 pb-5" id="contentssection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="menu-section-heading">Content</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <div class="menu-item-image w-100">
+                                <h1 class="text-center">CLASS - 10</h1>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <button class="menu-item-link btn btn-primary m-4"
+                                        onclick="display('sectionchandassu')">
+                                        తెలుగు
+                                    </button>
+                                    <button class="menu-item-link1 btn btn-primary mt-4"
+                                        onclick="display('sectionbhashakibat')">
+                                        हिंदी
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <div class="menu-item-image w-100">
+                                <h1 class="text-center">CLASS - 9</h1>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <button class="menu-item-link btn btn-primary m-4"
+                                        onclick="display('sectionalankaralu')">
+                                        తెలుగు
+                                    </button>
+                                    <button class="menu-item-link1 btn btn-primary mt-4"
+                                        onclick="display('sectionplay9thH')">
+                                        हिंदी
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <div class="menu-item-image w-100">
+                                <h1 class="text-center">CLASS - 8</h1>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <button class="menu-item-link btn btn-primary m-4"
+                                        onclick="display('sectionplay8thT')">
+                                        తెలుగు
+                                    </button>
+                                    <button class="menu-item-link1 btn btn-primary mt-4"
+                                        onclick="display('sectionplay8th')">
+                                        हिंदी
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <div class="menu-item-image w-100">
+                                <h1 class="text-center">CLASS - 7</h1>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <button class="menu-item-link btn btn-primary m-4"
+                                        onclick="display('sectionplay8thT')">
+                                        తెలుగు
+                                    </button>
+                                    <button class="menu-item-link1 btn btn-primary mt-4"
+                                        onclick="display('sectionplay7thH')">
+                                        हिंदी
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <div class="menu-item-image w-100">
+                                <h1 class="text-center">CLASS - 6</h1>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <button class="menu-item-link btn btn-primary m-4"
+                                        onclick="display('sectionplay6thT')">
+                                        తెలుగు
+                                    </button>
+                                    <button class="menu-item-link1 btn btn-primary mt-4"
+                                        onclick="display('sectionplay')">
+                                        हिंदी
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <div class="menu-item-image w-100">
+                                <h1 class="text-center">General</h1>
+                                <div class="d-flex flex-row justify-content-center">
+                                    <button class="menu-item-link btn btn-primary m-4"
+                                        onclick="display('sectiongeneral')">
+                                        Start
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="aboutussection">
+            <h1>About Us</h1>
+            <p>Welcome to greenera, a comprehensive online learning platform dedicated to providing high-quality
+                education for students in Hindi and Telugu languages from 6th to 10th classes. Our mission is to make
+                learning engaging, accessible, and effective through a variety of resources, including YouTube videos,
+                online tests, Google Forms, Wordwall games, and detailed lesson explanations.</p>
+            <h1>Who We Are</h1>
+            <p>At greenera, we are passionate about education and committed to empowering students with the knowledge
+                and skills they need to succeed in their academic journey. Our team of experienced educators and content
+                creators work tirelessly to deliver dynamic and interactive learning experiences tailored to the
+                specific needs of students in grades 6 to 10.</p>
+            <h1>What We Offer</h1>
+            <p class="para">1. YouTube Videos:</p>
+            <p>Dive into our curated collection of educational videos designed to make complex concepts easy to
+                understand. Our engaging content covers a wide range of topics, ensuring a holistic learning experience.
+            </p>
+            <p class="para">2. Online Tests:</p>
+            <p>Assess your understanding and track your progress with our interactive online tests. Receive instant
+                feedback to identify areas of improvement and enhance your mastery of subjects.</p>
+            <p class="para">3. Google Forms:</p>
+            <p>Participate in quizzes and surveys using Google Forms to reinforce your learning. These interactive
+                assessments are crafted to challenge and reinforce your understanding of key concepts.</p>
+            <p class="para">4. Wordwall Games:</p>
+            <p>Learning becomes a game with our interactive Wordwall games. Reinforce vocabulary, concepts, and
+                problem-solving skills in a fun and engaging way.</p>
+            <p class="para">5. Lesson Explanations in Hindi and Telugu:</p>
+            <p>Our detailed lesson explanations in Hindi and Telugu aim to bridge the language gap and provide clarity
+                on challenging topics. We break down complex subjects into digestible modules, making learning more
+                accessible.</p>
+            <h1>Why Choose Us</h1>
+            <p>Comprehensive Curriculum: Our curriculum is aligned with the academic standards for grades 6 to 10,
+                ensuring a well-rounded education.</p>
+            <p class="para">Interactive Learning:</p>
+            <p>We believe in the power of interactive learning. Our platform encourages students to actively participate
+                in their education, fostering a deeper understanding of the material.</p>
+            <p class="para">Accessible Anytime, Anywhere:</p>
+            <p>Learning should be flexible. Access our resources 24/7 from the comfort of your home, allowing you to
+                study at your own pace.</p>
+            <p class="para">Experienced Educators:</p>
+            <p> Our team of experienced educators brings a wealth of knowledge and expertise to ensure that you receive
+                quality education.</p>
+            <p>Embark on your educational journey with greenera and unlock the doors to a world of engaging, effective,
+                and enjoyable learning experiences. Join us in shaping a brighter future through knowledge and
+                education!</p>
+        </div>
+
+        <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="follow-us-section-heading">Follow Us</h1>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-column justify-content-center">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="follow-us-icon-container">
+                                    <a
+                                        href="https://twitter.com/greenera_24/status/1746047447124844673?t=UE2OU2JRChg_zdCKiyLcJw&s=19">
+                                        <i class="fab fa-twitter icon"></i>
+                                    </a>
+                                </div>
+                                <div class="follow-us-icon-container">
+                                    <a href="https://www.instagram.com/greenera_24?igsh=amVwZHJteWlqMnQx">
+                                        <i class="fab fa-instagram icon-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="follow-us-icon-container">
+                                    <a href="https://www.facebook.com/profile.php?id=61555421707610&mibextid=kFxxJD">
+                                        <i class="fab fa-facebook icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="follow-us-icon-container">
+                                    <a href="https://t.me/+w0MB3PQxmOw1NDRl">
+                                        <i class="fab fa-telegram icon"></i>
+                                    </a>
+                                </div>
+                                <div class="follow-us-icon-container">
+                                    <a
+                                        href="https://www.linkedin.com/in/green-era-3b61922a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                                        <i class="fab fa-linkedin icon"></i>
+                                    </a>
+                                </div>
+                                <div class="follow-us-icon-container">
+                                    <a href="https://chat.whatsapp.com/Fv5DOmBa7J45cm4vBE2sPQ">
+                                        <i class="fab fa-whatsapp icon-whatsapp"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-section pt-5 pb-5" id="footersection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                            <img src="logo.jpeg" class="food-munch-logo" />
+                        <h1 class="footer-section-mail-id">greenera2003@gmail.com</h1>
+                        <p class="footer-section-address">
+                            Andhra Pradesh, India.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionplay9thH" class="container1">
+        <h1 class="heading-style">SA MODAL PAPERS</h1>
+        <p class="h-description">(Click on below links and practice.)</p>
+        <p class="paragraph">MODEL PAPER - 1 </p>
+        <a class="para" href="http://tinyurl.com/sa1modelpaper">http://tinyurl.com/sa1modelpaper</a>
+        <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+    <div id="sectionplay6thT" class="container1">
+        <h1 class="heading-style">పర్యాయ పదాలు </h1>
+        <p class="h-description">(Click on below image, play and practice.)</p>
+        <p class="paragraph">Test - 1 </p>
+        <a target="_blank"
+            href="https://wordwall.net/resource/30194771/1mbalaram-west-godavari-andhra-pradesh?ref=embed-image"><img
+                src="https://wordwallscreens.azureedge.net/200/48c7c35685c647d8b1833b85c8d5434a_43" width="200"
+                height="150" style="border:1px solid grey;display:block" /><span></span></a>
+        <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+
+    <div id="sectionchandassu">
+        <div class="container1">
+            <h1 class="heading-style">ఛందస్సు </h1>
+            <p class="h-description">(Watch video and write exam by clicking link in description.)</p>
+            <p class="paragraph">పరిచయం </p>
+            <a class="link"
+                href="https://youtu.be/Wks9kO4Tnv0?feature=shared">https://youtu.be/Wks9kO4Tnv0?feature=shared</a>
+            <p class="paragraph"> గణవిభజన </p>
+            <a class="link"
+                href="https://youtu.be/bQAitgunZZw?feature=shared">https://youtu.be/bQAitgunZZw?feature=shared</a>
+            <p class="paragraph"> పద్యాలు రకాలు </p>
+            <a class="link"
+                href="https://youtu.be/RurZy449-Hc?feature=shared">https://youtu.be/RurZy449-Hc?feature=shared</a>
+            <p class="paragraph"> వృత్త పద్యాలు (ఉత్పలమాల ,చంపకమాల )</p>
+            <a class="link"
+                href="https://youtu.be/a9uV1Jj1L1E?feature=shared">https://youtu.be/a9uV1Jj1L1E?feature=shared</a>
+            <p class="paragraph">వృత్తపద్యాలు (శార్దూలం) </p>
+            <a class="link"
+                href="https://youtu.be/eYY8quPZgQA?feature=shared">https://youtu.be/eYY8quPZgQA?feature=shared</a>
+            <p class="paragraph">వృత్తపద్యాలు (మత్తేభం) </p>
+            <a class="link"
+                href="https://youtu.be/qUxHU6n1Of0?feature=shared">https://youtu.be/qUxHU6n1Of0?feature=shared</a>
+            <p class="paragraph">జాతులు (కంద )</p>
+            <a class="link"
+                href="https://youtu.be/1L69BIJ1WMw?feature=shared">https://youtu.be/1L69BIJ1WMw?feature=shared</a>
+            <p class="paragraph">జాతులు (ద్విపద )</p>
+            <a class="link"
+                href="https://youtu.be/Tr13CDlJZrQ?feature=shared">https://youtu.be/Tr13CDlJZrQ?feature=shared</a>
+            <p class="paragraph">ఉపజాతులు (తేటగీతి )</p>
+            <a class="link"
+                href="https://youtu.be/NLFG1kBF3cY?feature=shared">https://youtu.be/NLFG1kBF3cY?feature=shared</a>
+            <p class="paragraph">ఉపజాతులు (ఆటవెలది )</p>
+            <a class="link"
+                href="https://youtu.be/v4ZLw3KXE5c?feature=shared">https://youtu.be/v4ZLw3KXE5c?feature=shared</a>
+            <p class="paragraph">ఉపజాతులు (సీసం )</p>
+            <a class="link"
+                href="https://youtu.be/J8NQULbpPVY?feature=shared">https://youtu.be/J8NQULbpPVY?feature=shared</a> <br>
+            <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+        </div>
+    </div>
+    <div class="container1" id="sectionalankaralu">
+        <h1 class="heading-style">అలంకారాలు </h1>
+        <p class="h-description">(Watch video and write exam by clicking link in description.)</p>
+        <p class="paragraph">పరిచయం & చరిత్ర </p>
+        <a class="link"
+            href="https://youtu.be/mwvD5d9Ptqs?feature=shared">https://youtu.be/mwvD5d9Ptqs?feature=shared</a>
+        <p class="paragraph"> రకాలు </p>
+        <a class="link"
+            href="https://youtu.be/iau7XA-RFg4?feature=shared">https://youtu.be/iau7XA-RFg4?feature=shared</a>
+        <p class="paragraph"> శబ్దాలంకారం - అనుప్రాస </p>
+        <a class="link"
+            href="https://youtu.be/H4a2PxnscOY?feature=shared">https://youtu.be/H4a2PxnscOY?feature=shared</a>
+        <p class="paragraph"> శబ్దాలంకారం - యమకం & ముక్తపదగ్రస్తం </p>
+        <a class="link"
+            href="https://youtu.be/mQv_GlKzleo?feature=shared">https://youtu.be/mQv_GlKzleo?feature=shared</a>
+        <p class="paragraph">అర్ధాలంకారం - ఉపమాలంకారం </p>
+        <a class="link"
+            href="https://youtu.be/bUUKuYSVIiw?feature=shared">https://youtu.be/bUUKuYSVIiw?feature=shared</a>
+        <p class="paragraph">అర్ధాలంకారం - రూపక & ఉత్ప్రేక్షఅలంకారములు </p>
+        <a class="link"
+            href="https://youtu.be/1GScyG8Zl0I?feature=shared">https://youtu.be/1GScyG8Zl0I?feature=shared</a>
+        <p class="paragraph">అర్ధాలంకారం - స్వభావోక్తి </p>
+        <a class="link"
+            href="https://youtu.be/B_hnkPlYujY?feature=shared">https://youtu.be/B_hnkPlYujY?feature=shared</a>
+        <p class="paragraph">అర్ధాలంకారం - శ్లేషాలంకారం </p>
+        <a class="link"
+            href="https://youtu.be/DSAGPZE_mKM?feature=shared">https://youtu.be/DSAGPZE_mKM?feature=shared</a>
+        <p class="paragraph">అర్ధాలంకారం - వ్యాజస్తుతి & దృష్టాంత </p>
+        <a class="link"
+            href="https://youtu.be/LLCjFfJujXE?feature=shared">https://youtu.be/LLCjFfJujXE?feature=shared</a> <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+    <div class="container1" id="sectionbhashakibat">
+        <h1 class="heading-style">भाषा की बात </h1>
+        <p class="h-description">(Watch video and write exam by clicking link in description.)</p>
+        <p class="paragraph">तत्सम - तद्भव </p>
+        <a class="link"
+            href="https://youtu.be/EGM03g1tP48?feature=shared">https://youtu.be/EGM03g1tP48?feature=shared</a>p>
+        <a class="link"
+            href="https://youtu.be/EGM03g1tP48?feature=shared">https://youtu.be/EGM03g1tP48?feature=shared</a>
+        <p class="paragraph">उपसर्ग और प्रत्यय </p>
+        <a class="link"
+            href="https://youtu.be/iHmufUX4lbI?feature=shared">https://youtu.be/iHmufUX4lbI?feature=shared</a>
+        <p class="paragraph">समास part - 1 </p>
+        <a class="link"
+            href="https://youtu.be/NziTFOPr90k?feature=shared">https://youtu.be/NziTFOPr90k?feature=shared</a>
+        <p class="paragraph">समस part - 2 </p>
+        <a class="link"
+            href="https://youtu.be/3XTOz40f39A?feature=shared">https://youtu.be/3XTOz40f39A?feature=shared</a>
+        <p class="paragraph">पर्याय और विलोम </p>
+        <a class="link"
+            href="https://youtu.be/hKQHHmPBfD8?feature=shared">https://youtu.be/hKQHHmPBfD8?feature=shared</a>
+        <p class="paragraph">गिनती </p>
+        <a class="link"
+            href="https://youtu.be/bHOdO5zk7sU?feature=shared">https://youtu.be/bHOdO5zk7sU?feature=shared</a>
+        <p class="paragraph">मुहावरे </p>
+        <a class="link"
+            href="https://youtu.be/AB9uYG21wqA?feature=shared">https://youtu.be/AB9uYG21wqA?feature=shared</a>
+        <p class="paragraph">कारक </p>
+        <a class="link"
+            href="https://youtu.be/z5qDNUoLyyE?feature=shared">https://youtu.be/z5qDNUoLyyE?feature=shared</a> <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+    <div class="container1" id="sectionplay">
+        <h1 class="heading-style">PLAY & LEARN</h1>
+        <p class="h-description">(Click on image and start playing.)</p>
+        <p class="paragraph">तरकारी दरबा र </p>
+        <a target="_blank"
+            href="https://wordwall.net/resource/30008789/mbalaram-west-godavari-andhra-pradesh-6th-class-तरकर-दरबर-सह?ref=embed-image"><img
+                src="https://wordwallscreens.azureedge.net/200/c27c4e97c4f84f699f4985bcd54e8735_0" width="200"
+                height="150" style="border:1px solid grey;display:block" /><span> </span></a><br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+    <div id="sectionplay8th" class="container1">
+        <h1 class="heading-style">PLAY & LEARN</h1>
+        <p class="h-description">(Click on image and start playing.)</p>
+        <p class="paragraph">सुबह </p>
+        <a target="_blank"
+            href="https://wordwall.net/resource/34307706/mbalaramwest-godavari-andhra-pradesh-सबह-పదల-అరథలన-గరతచడ-?ref=embed-image"><img
+                src="https://wordwallscreens.azureedge.net/200/12a0a67ca28f4e03968f98d38eeb6aae_0" width="200"
+                height="150" style="border:
+1px solid grey;display:block" /><span></span></a>
+        <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+    <div id="sectionplay8thT" class="container1">
+        <h1 class="heading-style">LISTENING TEST</h1>
+        <p class="h-description">(Watch below youtube video.)</p>
+        <p class="paragraph">LEVEL - 1 </p>
+        <a class="para"
+            href="https://youtu.be/femJF7tyZJg?si=PCP98MikoRi01vIm">https://youtu.be/femJF7tyZJg?si=PCP98MikoRi01vIm</a>
+        <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+    <div id="sectionplay7thH" class="container1">
+        <h1 class="heading-style">भाषांश </h1>
+        <p class="h-description">(Play and learn.)</p>
+        <p class="paragraph">Game - 1</p>
+        <a target="_blank"
+            href="https://wordwall.net/resource/30632984/7th-class-mbalaram-west-godavari-andhra-pradesh-सह-जड-बनईए?ref=embed-image"><img
+                src="https://wordwallscreens.azureedge.net/200/a96ae41e1a634c6cb6b2fca0dfce1fe4_1" width="200"
+                height="150" style="border:1px solid grey;display:block" /><span>7
+            </span></a>
+        <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+    <div id="sectiongeneral" class="container1">
+        <h1 class="heading-style">General </h1>
+        <p class="h-description">(Watch video and write online test provided in description.)</p>
+        <p class="paragraph">ఆక్షౌహిని వివరాలు తెలుసుకోండి . పరీక్ష రాయండి . </p>
+        <a class="para"
+            href="https://youtu.be/40PNrADUKE4?si=RUH7QpfEDuBgv35X">https://youtu.be/40PNrADUKE4?si=RUH7QpfEDuBgv35X</a>
+        <br>
+        <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+    </div>
+
+
+    <script type="text/javascript"
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
